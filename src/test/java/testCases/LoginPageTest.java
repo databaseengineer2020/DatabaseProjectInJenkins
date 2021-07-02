@@ -24,23 +24,9 @@ LoginPage LoginpageObj;
 	}
 	
 	
-	@Test(priority =1)
-	public void LoginTest() throws InterruptedException, ClassNotFoundException, SQLException{
-//		LoginpageObj.enterUserName("demo@techfios.com");
-		//LoginpageObj.enterPassword("abc123");
-		//LoginpageObj.clickOnSignInButton();
-		
-		LoginpageObj.enterUserName(DatabasePage.getData("userName"));
-		LoginpageObj.enterPassword(DatabasePage.getData("password"));
-		LoginpageObj.clickOnSignInButton();
-		Thread.sleep(3000);
-		
-	}
 	
-	
-	
-	@Test(priority =2)
-	public void LoginPageTittleTest() throws InterruptedException {
+	@Test
+	public void LoginPage() throws InterruptedException {
 		LoginpageObj.enterUserName("demo@techfios.com");
 		LoginpageObj.enterPassword("abc123");
 		LoginpageObj.clickOnSignInButton();
