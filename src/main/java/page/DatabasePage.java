@@ -1,4 +1,4 @@
-/*package page;
+package page;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -24,4 +24,4 @@ public class DatabasePage {
 		return columnName;
 	}
 
-}*/
+}
