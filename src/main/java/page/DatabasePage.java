@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class DatabasePage {
+/*public class DatabasePage {
 	
 	public static String getData(String columnName) throws ClassNotFoundException, SQLException{
 		//Setting properties for mysql
@@ -24,4 +24,4 @@ public class DatabasePage {
 		return columnName;
 	}
 
-}
+}*/
